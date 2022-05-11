@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    html {
+        font-family: 'Poppins', sans-serif;
+    }
+}
+
+.hd-navbar-item {
+    @apply text-[#635F85] text-base font-medium hover:text-[#FF7D00] hover:duration-300 hover:ease-in-out relative after:absolute after:bottom-0 after:left-0 after:bg-[#FF7D00] after:w-0 after:h-[2px] hover:after:w-4 hover:after:duration-300 hover:after:ease-in-out;
+}
+
+.hd-button-gradient {
+    @apply font-medium text-base text-white py-4 px-9 bg-gradient-to-r from-[#F67102] to-[#F4A91E] rounded-full;
+}
+
+.hd-sub {
+    @apply font-medium text-[#FF7D01] text-[13px] uppercase;
+}
+
+.hd-title {
+    @apply font-bold text-[#051441]; 
+}
+
+.hd-desc {
+    @apply font-medium text-[#5D677E] text-base;
+}
